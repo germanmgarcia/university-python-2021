@@ -12,3 +12,11 @@ print("Suma:", int(numero1) + int(numero2))
 # numero1 = 1
 # numero2 = 2
 # print(numero1 + numero2)
+
+
+#Tipos bool (boolean)
+miVariable = False
+print(miVariable)
+
+miVariable = 1 > 2
+print(miVariable)
