@@ -1,7 +1,7 @@
 # Tipos de Datos en Python
 
 
-# Tarea 2 
+## Tarea 2 
 Se solicita incluir la siguiente información acerca de un libro:
 
    - titulo
