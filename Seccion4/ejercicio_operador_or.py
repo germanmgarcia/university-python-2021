@@ -1,7 +1,7 @@
 vacaciones = False
 diaDescanso = True
 
-if vacaciones or diaDescanso:
-    print(f'Puede asistir al juego')
-else:
+if not (vacaciones or diaDescanso):
     print(f'Tiene deberes por hacer')
+else:
+    print(f'Puede asistir al juego')
