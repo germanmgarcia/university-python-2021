@@ -22,3 +22,23 @@ for nombre in nombres:
     print(nombre)
 else:
     print('No existen más nombres en la lista')
+# Preguntar el largo de una lista
+print(len(nombres))
+# Agregar un elemento
+nombres.append('Lorenzo')
+print(nombres)
+# Insertar un elemento en un índice en específico
+nombres.insert(1, 'Octavio')
+print(nombres)
+# Remover un elemento
+nombres.remove('Octavio')
+print(nombres)
+# Remover el último valor agregado
+nombres.pop()
+print(nombres)
+# Eliminar un indice
+del nombres[0]
+print(nombres)
+# Limpiar la lista
+nombres.clear()
+print(nombres)
