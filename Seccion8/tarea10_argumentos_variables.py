@@ -1,4 +1,4 @@
-def sumarNumeros(*args):
+def sumarNumeros(*args:int) -> int:
     total = 0
     for i in args:
         total += i
