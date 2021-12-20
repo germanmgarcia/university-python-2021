@@ -1,6 +1,5 @@
 def multiplicarNumeros(*args:int) -> int:
     total = args[0]
-    print(total)
     for i in args[1:]:
         total *= i
     return  total
