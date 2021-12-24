@@ -34,3 +34,20 @@ Ej. Si llamamos a la función calcular_total(1000, 16) debe retornar el valor 1,
 
 Los valores los debe proporcionar el usuario y se procesados con la función input, convirtiendolos a tipo float.
 
+### Tarea 14:
+Función 1. Recibir un parámetro llamado celcius y regresar el valor equivalente a fahrenheit
+
+La función se llama: celsius_fahrenheit(celsius) 
+
+La fórmula para convertir de celsius a fahrenheit es: celsius * 9/5 + 32 
+
+Función 2. Recibir un parámetro llamado fahrenheit y regresar el valor equivalente a celsius:
+
+fahrenheit_celsius(fahrenheit)         
+
+La fórmula para convertir de fahrenheit a celsius es:  (fahrenheit-32) * 5/9
+
+Los valores los debe proporcionar el usuario, utilizando la función input y convirtiendolo a tipo float.
+
+Deben hacer al menos dos pruebas, una donde conviertan de grados celcius a grados fahrenheit, 
+y otra donde conviertan de grados fahrenheit a grados celsius y mandar a imprimir los resultados.
