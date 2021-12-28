@@ -9,15 +9,14 @@ class Persona:
         print('Llamando método get nombre')
         return self._nombre
 
-    @nombre.setter
-    def nombre(self, nombre):
-        print('Llamando método set nombre')
-        self._nombre = nombre
+    # @nombre.setter
+    # def nombre(self, nombre):
+    #     print('Llamando método set nombre')
+    #     self._nombre = nombre
 
     def mostrar_detalle(self):
         print(f'Persona: {self._nombre} {self.apellido} {self.edad}')
 
 persona1 = Persona('Juan', 'Perez', 28)
-print(persona1.nombre)
 persona1.nombre = 'Juan Carlos'
 print(persona1.nombre)
