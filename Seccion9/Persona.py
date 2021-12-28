@@ -9,6 +9,10 @@ class Persona:
 
 persona1 = Persona('Juan', 'Perez', 28)
 persona1.mostrar_detalle()
+persona1.telefono = '544832148'
+print(persona1.telefono)
+# Persona.mostrar_detalle(persona1)
 
 persona2 = Persona('Karla', 'Gomez', 30)
 persona2.mostrar_detalle()
+print(persona2.telefono)
