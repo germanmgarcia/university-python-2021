@@ -1,6 +1,8 @@
 from Persona import Persona
 
-if __name__ == '__main__':
-    persona1 = Persona('Karla', 'Gomez', 30)
-    persona1.mostrar_detalle()
-    print(__name__)
+print('Creación objetos'.center(50, '-'))
+persona1 = Persona('Karla', 'Gomez', 30)
+persona1.mostrar_detalle()
+
+print('Eliminación objetos'.center(50, '-'))
+del persona1
