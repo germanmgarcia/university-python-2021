@@ -9,6 +9,9 @@ print(MiClase.variable_clase)
 miClase = MiClase('Valor variable instancia')
 print(miClase.variable_instancia)
 
+MiClase.variable_clase2 = 'Valor variable clase 2'
+
 miClase2 = MiClase('Otro valor de variable instancia')
 print(miClase2.variable_instancia)
 print(miClase2.variable_clase)
+print(miClase2.variable_clase2)
