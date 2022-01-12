@@ -9,4 +9,8 @@ class MiClase:
     def metodo_estatico():
         print(MiClase.variable_clase)
 
-MiClase.metodo_estatico()
+    @classmethod
+    def metodo_clase(cls):
+        print(cls.variable_clase)
+
+MiClase.metodo_clase()
