@@ -10,6 +10,10 @@ except TypeError as e:
     print(f'TypeError - Ocurrió un error: {e}, {type(e)}')
 except Exception as e:
     print(f'Exception - Ocurrió un error: {e}, {type(e)}')
+else: #Se ejecuta unicamente si no ocurre ninguna excepción
+    print('No se arrojó ninguna excepción')
+finally: #Independientemente si se lanza una excepción o no se ejecuta
+    print('Ejecución del bloque finally')
 
 print(f'Resultado: {resultado}')
 print('Continuamos...')
