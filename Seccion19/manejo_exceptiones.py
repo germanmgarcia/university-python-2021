@@ -1,4 +1,11 @@
+resultado = None
+a = '10'
+b = 0
+
 try:
-    10/0
+    resultado = a/b
 except Exception as e:
     print(f'Ocurrió un error: {e}')
+
+print(f'Resultado: {resultado}')
+print('Continuamos...')
