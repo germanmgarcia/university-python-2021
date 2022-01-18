@@ -1,8 +1,8 @@
 resultado = None
-a = 10
-b = 0
 
 try:
+    a = int(input('Primer número: '))
+    b = int(input('Segundo número: '))
     resultado = a/b
 except ZeroDivisionError as e:
     print(f'ZeroDivisionError - Ocurrió un error: {e}, {type(e)}')
