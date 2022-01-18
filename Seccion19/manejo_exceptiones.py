@@ -1,8 +1,12 @@
+from NumerosIdenticosException import NumerosIdenticosException
+
 resultado = None
 
 try:
     a = int(input('Primer número: '))
     b = int(input('Segundo número: '))
+    if a == b:
+        raise NumerosIdenticosException('Números idénticos')
     resultado = a/b
 except ZeroDivisionError as e:
     print(f'ZeroDivisionError - Ocurrió un error: {e}, {type(e)}')
