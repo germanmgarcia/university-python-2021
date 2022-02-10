@@ -2,6 +2,7 @@ version: "3.3"
    
 services:
   db:
+    container_name: postgres
     image: postgres
     volumes:
       - ./data/db:/var/lib/postgresql/data
@@ -10,10 +11,11 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
   web:
+    container_name: django
     build: .
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
-      - ./Seccion65Django:/code
+      - ./:/code
     ports:
       - "8000:8000"
     environment:
