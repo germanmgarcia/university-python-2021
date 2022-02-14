@@ -26,3 +26,8 @@ docker exec -it django python manage.py makemigrations
 '''
 docker exec -it django python manage.py sqlmigrate personas 0001
 '''
+
+### Crear superuser
+'''
+docker exec -it django python manage.py createsuperuser
+'''
