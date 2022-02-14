@@ -25,8 +25,14 @@ def editarPersona(request, id):
     if request.method == 'POST':
         formaPersona = PersonaForm(request.POST, instance=persona)
         if formaPersona.is_valid():
-            formaPersona.save()
+            formaPersona.save() 
             return redirect('inicio')
     else:        
         formaPersona = PersonaForm(instance=persona)
     return render(request, 'personas/editar.html', {'formaPersona': formaPersona})
+
+def eliminarPersona(request, id):
+    persona = get_object_or_404(Persona, pk=id)
+    if persona:
+        persona.delete()
+    return redirect('inicio')
