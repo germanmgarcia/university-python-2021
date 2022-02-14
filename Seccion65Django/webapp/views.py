@@ -5,3 +5,7 @@ from django.shortcuts import render
 
 def bienvenido(request):
     return HttpResponse('Hola mundo desde Django')
+
+
+def despedirse(request):
+    return HttpResponse('Despedida desde Django')
