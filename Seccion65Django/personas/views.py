@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
-from django.forms import modelform_factory
+# from django.forms import modelform_factory
+from personas.forms import PersonaForm
 from personas.models import Persona
 
 def detallePersona(request, id):
@@ -7,7 +8,7 @@ def detallePersona(request, id):
     persona = get_object_or_404(Persona, pk=id)
     return render(request, 'personas/detalle.html', {'persona': persona})
 
-PersonaForm = modelform_factory(Persona, exclude=[])
+# PersonaForm = modelform_factory(Persona, exclude=[])
 
 def nuevaPersona(request):
     if request.method == 'POST':
