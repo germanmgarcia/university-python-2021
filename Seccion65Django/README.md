@@ -16,3 +16,13 @@ docker exec -it django python manage.py showmigrations
 '''
 docker exec -it django python manage.py migrate
 '''
+
+### Se encarga de crear nuevas migraciones en función de los cambios que haya realizado
+'''
+docker exec -it django python manage.py makemigrations
+'''
+
+### Mostar el sql que se va a ejecutar
+'''
+docker exec -it django python manage.py sqlmigrate personas 0001
+'''
