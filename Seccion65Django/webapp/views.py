@@ -5,4 +5,5 @@ from personas.models import Persona
 
 def bienvenido(request):
     no_personas = Persona.objects.count()
-    return render(request, 'bienvenido.html', {'no_personas': no_personas})    
+    personas = Persona.objects.all()
+    return render(request, 'bienvenido.html', {'no_personas': no_personas, 'personas': personas})    
