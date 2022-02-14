@@ -21,7 +21,7 @@ from personas.views import detallePersona, nuevaPersona
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', bienvenido),
+    path('', bienvenido, name='inicio'),
     path('detalle_persona/<int:id>', detallePersona),
     path('nueva_persona', nuevaPersona)
 ]
