@@ -31,3 +31,9 @@ docker exec -it django python manage.py sqlmigrate personas 0001
 '''
 docker exec -it django python manage.py createsuperuser
 '''
+
+### Cómo proporcionar datos iniciales para los modelos
+'''
+docker exec -it django python manage.py loaddata domicilio
+docker exec -it django python manage.py loaddata persona
+'''

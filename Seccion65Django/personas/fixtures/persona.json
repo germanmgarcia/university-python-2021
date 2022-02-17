@@ -1,0 +1,62 @@
+[
+  {
+    "model": "personas.Persona",
+    "pk": 1,
+    "fields": {
+      "nombre": "Carlos",
+      "apellido": "Gomez",
+      "email": "voizipereuxo-6588@yopmail.com",
+      "domicilio": 1
+    }
+  },
+  {
+    "model": "personas.Persona",
+    "pk": 2,
+    "fields": {
+      "nombre": "Karen",
+      "apellido": "Barrera",
+      "email": "grinewivita-2503@yopmail.com",
+      "domicilio": 2
+    }
+  },
+  {
+    "model": "personas.Persona",
+    "pk": 3,
+    "fields": {
+      "nombre": "Pepito",
+      "apellido": "Perez",
+      "email": "nabreitreheullou-6633@yopmail.com",
+      "domicilio": 3
+    }
+  },
+  {
+    "model": "personas.Persona",
+    "pk": 4,
+    "fields": {
+      "nombre": "Mateo",
+      "apellido": "Baos",
+      "email": "vaulleucauttupo-6906@yopmail.com",
+      "domicilio": 4
+    }
+  },
+  {
+    "model": "personas.Persona",
+    "pk": 5,
+    "fields": {
+      "nombre": "Manuel",
+      "apellido": "Malo",
+      "email": "giffeiffacauca-4106@yopmail.com",
+      "domicilio": 5
+    }
+  },
+  {
+    "model": "personas.Persona",
+    "pk": 6,
+    "fields": {
+      "nombre": "Pepa",
+      "apellido": "Perez",
+      "email": "tepragagrifre-8449@yopmail.com",
+      "domicilio": 6
+    }
+  }
+]

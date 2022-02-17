@@ -1,0 +1,57 @@
+[
+    {
+      "model": "personas.Domicilio",
+      "pk": 1,
+      "fields": {
+        "calle": "Schneider Turnpike",
+        "no_calle": 415,
+        "pais": "Colombia"
+      }
+    },
+    {
+      "model": "personas.Domicilio",
+      "pk": 2,
+      "fields": {
+        "calle": "Baumbach Flats",
+        "no_calle": 7236,
+        "pais": "Argentina"
+      }
+    },
+    {
+      "model": "personas.Domicilio",
+      "pk": 3,
+      "fields": {
+        "calle": "Goyette Roads",
+        "no_calle": 56985 ,
+        "pais": "Colombia"
+      }
+    },
+    {
+      "model": "personas.Domicilio",
+      "pk": 4,
+      "fields": {
+        "calle": "Justine Crossroad",
+        "no_calle": 99302,
+        "pais": "Peru"
+      }
+    },
+    {
+      "model": "personas.Domicilio",
+      "pk": 5,
+      "fields": {
+        "calle": "Larkin Corner",
+        "no_calle": 522,
+        "pais": "Colombia"
+      }
+    },
+    {
+      "model": "personas.Domicilio",
+      "pk": 6,
+      "fields": {
+        "calle": "Grimes Islands",
+        "no_calle": 8768,
+        "pais": "Colombia"
+      }
+    }
+  ]
+  
